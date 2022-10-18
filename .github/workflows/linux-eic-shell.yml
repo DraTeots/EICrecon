@@ -70,8 +70,11 @@ jobs:
         network_types: "none"
         #setup: install/bin/setup.sh
         run: |
+            echo "ls install"
             ls install
+            echo "ls install/bin"
             ls install/bin
-            eicrecon
+            echo "run eicrecon -c"
+            eicrecon -c
 
 
