@@ -68,9 +68,10 @@ jobs:
       with:
         platform-release: "jug_xl:nightly"
         network_types: "none"
-        setup: install/bin/setup.sh
+        #setup: install/bin/setup.sh
         run: |
             ls install
+            ls install/bin
             eicrecon
 
 
